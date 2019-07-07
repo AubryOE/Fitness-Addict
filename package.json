@@ -1,0 +1,19 @@
+{
+  "name": "fitnessaddict",
+  "version": "1.0.0",
+  "description": "Tess Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AubryOE/Fitness-Addict.git"
+  },
+  "author": "Aubry Oehlberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AubryOE/Fitness-Addict/issues"
+  },
+  "homepage": "https://github.com/AubryOE/Fitness-Addict#readme"
+}
