@@ -1,16 +1,24 @@
+div#content.ui.segment{
+    background-color: #73c2fb;
+}
+
+body.pushable{
+    background-color: #73c2fb;
+}
+
 .header {
 font-size: 1.3em;
 }
 
-.ui.huge.header{
-    margin: 0.2em;
-    text-align: center;
+div.ui.inverted.fixed.menu{
+    font-size: 0.9em;
 }
 
-div#banner.ui.bottom.attached.segment{
-    background: #26C7FF;
-    margin-top: 1.9em;
+div#banner.ui.raised.segment{
+    margin-top: 1.5em;
     text-align: center;
+    /* background-color: #73c2fb; */
+    border: none;
 }
 
 a.social {
@@ -18,9 +26,62 @@ a.social {
     margin-left: 0.8em;
 }
 
+a.ui.floated.button {
+    background-color: rgba(0, 0, 0, 0.87);
+    color:rgba(255, 255, 255, 0.9);
+}
+
+img#tess-image.ui.left.floated.image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ul.success-items{
+    list-style: none;
+    padding: 0px;
+    font-weight: bold;
+}
+
+a.ui.label.caption{
+    /* margin: auto; */
+    align-items: center;
+}
+/* 
+li.success-list{
+    margin: 0px;
+} */
+
 footer {
     margin: 2em;
 }
+
+
+p.footer-details{
+    font-size: 0.8em;
+    line-height: 0.4em;
+}
+
+#best{
+    color: rgba(235, 247, 243, 0.61)
+}
+
+span#calendarTitle {
+    visibility: hidden;
+}
+
+div#eventCalendar {
+    margin: 2em; 
+}
+
+a.caption{
+    font-size: 1.3em;
+    color: #1B1C1D
+}
+
+div.row.paragraph-text{
+    margin-top: 0px;
+}
+
 @media screen and (max-width: 400px){
     #mobile_item{
         margin-left: 0;
@@ -28,6 +89,10 @@ footer {
     }
     div.ui.inverted.menu{
         font-size: 0.85em;
+    }
+    div#eventCalendar {
+        margin: 0.2em 0px 0.2em 0px ; 
+
     }
 }
 
