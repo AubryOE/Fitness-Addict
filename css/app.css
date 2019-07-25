@@ -1,3 +1,4 @@
+/* Menu Styling */
 div#content.ui.segment{
     background-color: #73c2fb;
 }
@@ -14,6 +15,12 @@ div.ui.inverted.fixed.menu{
     font-size: 0.9em;
 }
 
+a.social {
+    font-size: 0.8em;
+    margin-left: 0.8em;
+}
+
+/* Logo Styling */
 div#banner.ui.raised.segment{
     margin-top: 1.5em;
     text-align: center;
@@ -21,21 +28,19 @@ div#banner.ui.raised.segment{
     border: none;
 }
 
-a.social {
-    font-size: 0.8em;
-    margin-left: 0.8em;
-}
-
+/* Home Page  */
 a.ui.floated.button {
     background-color: rgba(0, 0, 0, 0.87);
     color:rgba(255, 255, 255, 0.9);
 }
 
+/* TODO: No longer needed? */
 img#tess-image.ui.left.floated.image{
     max-width: 100%;
     max-height: 100%;
 }
 
+/* About Page */
 ul.success-items{
     list-style: none;
     padding: 0px;
@@ -51,16 +56,31 @@ li.success-list{
     margin: 0px;
 } */
 
+/* Contact Page */
 div#contactContent.ui.segment {
     background-image: url("https://images.unsplash.com/photo-1519760370-4a5c4dc9a17a?ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80");
     background-size: cover;
     resize: both;
     /* background-repeat: no-repeat; */
-
 }
 
 div.ui.stackable.grid.aboutGrid {
     margin: 4em 0px 4em 0px;
+}
+
+/* Events Page */
+span#calendarTitle {
+    visibility: hidden;
+}
+
+div#eventCalendar {
+    margin: 2em; 
+}
+
+/* Menus Page */
+h3#MealPrepSub.ui.center.aligned.header{
+    border: 3px solid #73c2fb;
+    padding: 0.6em;
 }
 
 h4#instructions.ui.left.aligned.header{
@@ -96,10 +116,10 @@ i.material-icons{
     font-size: 0.8em;
 }
 
+/* footer */
 footer {
     margin: 2em;
 }
-
 
 p.footer-details{
     font-size: 0.8em;
@@ -108,14 +128,6 @@ p.footer-details{
 
 #best{
     color: rgba(235, 247, 243, 0.61)
-}
-
-span#calendarTitle {
-    visibility: hidden;
-}
-
-div#eventCalendar {
-    margin: 2em; 
 }
 
 a.caption{
