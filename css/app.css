@@ -29,7 +29,7 @@ div#banner.ui.raised.segment{
 }
 
 /* Home Page  */
-a.ui.floated.button {
+a.ui.floated.button, a.ui.fluid.button {
     background-color: rgba(0, 0, 0, 0.87);
     color:rgba(255, 255, 255, 0.9);
 }
@@ -79,8 +79,20 @@ div#eventCalendar {
 
 /* Menus Page */
 h3#MealPrepSub.ui.center.aligned.header{
-    border: 3px solid #73c2fb;
+    /* border: 3px solid #73c2fb; */
+    /* border: 3px solid #1b1c1d; */
+    border: 3px solid #03DF51;
+    padding: 1.2em;
+}
+
+div#mealDescription.sub.header{
+    font-size: 1.2em;
     padding: 0.6em;
+}
+a.ui.fluid.button {
+    background-color: rgba(0, 0, 0, 0.87);
+    color:rgba(255, 255, 255, 0.9);
+    margin-top: 3em;
 }
 
 h4#instructions.ui.left.aligned.header{
@@ -126,7 +138,7 @@ p.footer-details{
     line-height: 0.4em;
 }
 
-#best{
+.best{
     color: rgba(235, 247, 243, 0.61)
 }
 
@@ -137,6 +149,14 @@ a.caption{
 
 div.row.paragraph-text{
     margin-top: 0px;
+}
+
+span.textTess, span.email, span.location{
+    padding-left: 0.6em;
+}
+
+p#contactInfo{
+    font-weight: bold;
 }
 
 @media screen and (max-width: 400px){
@@ -152,6 +172,13 @@ div.row.paragraph-text{
     }
 
 }
+@media screen and (max-width: 700px) {
+    span#textTess, span#email, span#location{
+        padding-left: 0.2em;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 767px){
     div.six.wide.column.socialMediaSidebar{
         padding: 0.5em;

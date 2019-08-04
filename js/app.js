@@ -6,6 +6,10 @@
 //     document.querySelector(".header").innerHTML = data;
 //   });
 
+// let sampleSub = document.querySelector("span#sampleSub");
+// otherSub = sampleSub.textContent.toUpperCase();
+// sampleSub.textContent = otherSub;
+
 //Based on Semantic UI Responsiveness Menu by Designosis: https://codepen.io/designosis/pen/LbMgya
 
 $('.ui.sidebar').sidebar({
@@ -18,3 +22,10 @@ $('.ui.vertical.sidebar').sidebar({
          $('.pusher').css('overflow', 'initial');
 }
 }).sidebar()
+
+$('.ui.sticky')
+  .sticky({
+    context: 'div#orderingInfo.seven.wide.column',
+    pushing: true
+  })
+;
