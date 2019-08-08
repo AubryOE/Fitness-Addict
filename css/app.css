@@ -77,6 +77,14 @@ div#eventCalendar {
     margin: 2em; 
 }
 
+div#eventButton.row{
+    padding: 0px;
+}
+
+a#trainingPageLink.large.ui.fluid.button{
+    margin: 0px;
+}
+
 /* Menus Page */
 h3#MealPrepSub.ui.center.aligned.header{
     /* border: 3px solid #73c2fb; */
@@ -126,6 +134,41 @@ h3#venmoButton.ui.button {
 
 i.material-icons{
     font-size: 0.8em;
+}
+
+/* Training Page */
+
+div#trainingInfo.ui.segment{
+    background: #73c2fb;
+}
+
+div.trainingCaption{
+    font-size: 1.1em;
+    color: #1B1C1D;
+    /* padding: 0.1em; */
+}
+
+div.ui.tiny.header{
+    margin: 0.2em;
+    font-size: 1.1em;
+    margin-left: 0px;
+}
+
+a.mapLink{
+    color: #1B1C1D;
+}
+
+i.far.fa-registerd{
+    width: 15%;
+}
+
+div.trainingTitle.content{
+    padding-bottom: 0px;
+}
+
+.underline{
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /* footer */

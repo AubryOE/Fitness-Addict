@@ -23,9 +23,9 @@ $('.ui.vertical.sidebar').sidebar({
 }
 }).sidebar()
 
-$('.ui.sticky')
-  .sticky({
-    context: 'div#orderingInfo.seven.wide.column',
-    pushing: true
-  })
-;
+// $('.ui.sticky')
+//   .sticky({
+//     context: 'div#orderingInfo.seven.wide.column',
+//     pushing: true
+//   })
+// ;
