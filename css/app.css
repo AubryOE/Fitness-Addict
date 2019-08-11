@@ -81,6 +81,14 @@ div#eventButton.row{
     padding: 0px;
 }
 
+a#scheduleLink.large.ui.fluid.button{
+    margin-top: 1.2em;
+}
+
+div#downloadButton.row{
+    padding-bottom: 0px;
+}
+
 a#trainingPageLink.large.ui.fluid.button{
     margin: 0px;
 }
@@ -89,13 +97,26 @@ a#trainingPageLink.large.ui.fluid.button{
 h3#MealPrepSub.ui.center.aligned.header{
     /* border: 3px solid #73c2fb; */
     /* border: 3px solid #1b1c1d; */
-    border: 3px solid #03DF51;
-    padding: 1.2em;
+    /* border: 3px solid #03DF51; */
+    padding: 0.3em;
 }
 
 div#mealDescription.sub.header{
     font-size: 1.2em;
     padding: 0.6em;
+}
+
+div#mealDescription.ui.segment{
+    background: #73c2fb;
+    margin-bottom: 0.5em;
+}
+
+div.ui.center.aligned.segment.menuText {
+    background: #73c2fb;
+}
+
+div#cookieHeader.ui.center.aligned.tiny.header{
+    padding-left: 0.2em;
 }
 a.ui.fluid.button {
     background-color: rgba(0, 0, 0, 0.87);
@@ -169,6 +190,19 @@ div.trainingTitle.content{
 .underline{
     font-weight: bold;
     text-decoration: underline;
+}
+
+/* Accountability Page */
+div.ui.center.aligned.segment.accountability {
+    background-color: #73c2fb; 
+}
+
+div#accountabilityInfo.ui.segment {
+    background-color: #73c2fb; 
+}
+
+a.email{
+    color: #1B1C1D;
 }
 
 /* footer */
