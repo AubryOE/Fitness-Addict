@@ -175,6 +175,10 @@ div.ui.tiny.header{
     margin-left: 0px;
 }
 
+span.classLocation{
+    display: block;
+}
+
 a.mapLink{
     color: #1B1C1D;
 }
