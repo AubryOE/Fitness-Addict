@@ -93,7 +93,7 @@ a#trainingPageLink.large.ui.fluid.button{
     margin: 0px;
 }
 
-/* Menus Page */
+/* Meal Prep Page */
 h3#MealPrepSub.ui.center.aligned.header{
     /* border: 3px solid #73c2fb; */
     /* border: 3px solid #1b1c1d; */
@@ -122,6 +122,11 @@ a.ui.fluid.button {
     background-color: rgba(0, 0, 0, 0.87);
     color:rgba(255, 255, 255, 0.9);
     margin-top: 3em;
+}
+
+a.big.ui.fluid.button.mealDownload {
+    margin: 0.1em;
+    display: block;
 }
 
 h4#instructions.ui.left.aligned.header{
